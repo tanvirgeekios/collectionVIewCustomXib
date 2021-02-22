@@ -13,6 +13,8 @@
 		EB25E7B025E37FED00D59023 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB25E7AE25E37FED00D59023 /* Main.storyboard */; };
 		EB25E7B225E37FEF00D59023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB25E7B125E37FEF00D59023 /* Assets.xcassets */; };
 		EB25E7B525E37FEF00D59023 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB25E7B325E37FEF00D59023 /* LaunchScreen.storyboard */; };
+		EB25E7BF25E3839D00D59023 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB25E7BD25E3839D00D59023 /* MyCollectionViewCell.swift */; };
+		EB25E7C025E3839D00D59023 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB25E7BE25E3839D00D59023 /* MyCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EB25E7B125E37FEF00D59023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB25E7B425E37FEF00D59023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB25E7B625E37FEF00D59023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB25E7BD25E3839D00D59023 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		EB25E7BE25E3839D00D59023 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				EB25E7B125E37FEF00D59023 /* Assets.xcassets */,
 				EB25E7B325E37FEF00D59023 /* LaunchScreen.storyboard */,
 				EB25E7B625E37FEF00D59023 /* Info.plist */,
+				EB25E7BD25E3839D00D59023 /* MyCollectionViewCell.swift */,
+				EB25E7BE25E3839D00D59023 /* MyCollectionViewCell.xib */,
 			);
 			path = CustomCollectionViewCellXIB;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			files = (
 				EB25E7B525E37FEF00D59023 /* LaunchScreen.storyboard in Resources */,
 				EB25E7B225E37FEF00D59023 /* Assets.xcassets in Resources */,
+				EB25E7C025E3839D00D59023 /* MyCollectionViewCell.xib in Resources */,
 				EB25E7B025E37FED00D59023 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +146,7 @@
 			files = (
 				EB25E7AD25E37FED00D59023 /* ViewController.swift in Sources */,
 				EB25E7A925E37FED00D59023 /* AppDelegate.swift in Sources */,
+				EB25E7BF25E3839D00D59023 /* MyCollectionViewCell.swift in Sources */,
 				EB25E7AB25E37FED00D59023 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
